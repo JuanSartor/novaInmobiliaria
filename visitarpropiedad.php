@@ -371,7 +371,7 @@
             width: 110px;
             text-align: center;
             height: 20px;
-            margin-left: 10px;
+            margin-left: 0px;
             top: 6px;
         }
 
@@ -483,11 +483,12 @@
 
     }
 </style>
-
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Nova Inmobiliaria un grupo de profesionales a tu disposición, para asesorarte y facilitarte tus operaciones en el mercado inmobiliario: Tasaciones - Administración de Propiedades - Compra Venta de Inmuebles - Proyectos Inmobiliarios.">
     <?php
     if ($_SERVER['HTTP_HOST'] === 'localhost') {
         $UrlIndex = 'https://localhost/novaInm/';
@@ -496,7 +497,6 @@
     }
     ?>
     <title>Nova Inmobiliaria</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="<?php echo $UrlIndex . 'images/favicon.png'; ?>" type="image/x-icon">

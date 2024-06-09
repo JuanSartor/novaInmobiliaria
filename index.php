@@ -353,15 +353,15 @@
         }
     }
 </style>
-
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
 
 <head>
-    <title>Nova Inmobiliaria</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="Nova Inmobiliaria un grupo de profesionales a tu disposición, para asesorarte y facilitarte tus operaciones en el mercado inmobiliario: Tasaciones - Administración de Propiedades - Compra Venta de Inmuebles - Proyectos Inmobiliarios.">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nova Inmobiliaria</title>
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <!--    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&amp;display=swap">
 -->
