@@ -306,7 +306,44 @@
         }
 
         .buscador {
-            display: none;
+            top: 75px;
+            width: 100%;
+            position: absolute;
+            height: 65px;
+        }
+
+        .txt-buscador {
+            font-size: 14px;
+            text-align: center;
+            top: 5px;
+        }
+
+        .selectores {
+            top: 10px;
+        }
+
+        .select2-results {
+            font-size: 10px;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+
+            font-size: 10px !important;
+            line-height: 0.7 !important;
+
+        }
+
+        .select2-container--open .select2-dropdown--below {
+            top: -25px;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            top: 22% !important;
+        }
+
+        .deco-select {
+            height: 20px;
+            width: auto;
         }
 
         .mobile-whatsap {
