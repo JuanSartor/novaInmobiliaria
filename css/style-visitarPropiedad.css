@@ -1,0 +1,485 @@
+@charset "UTF-8";
+
+.tam-texto-desc-prop {
+    font-size: 21px;
+}
+
+.color-nova {
+    color: #FF6900 !important;
+}
+
+.input-form-inm {
+    width: 80%;
+    margin-bottom: 15px;
+    border-color: #FF6900;
+    border-radius: 5px;
+}
+
+.centrar-input-form-cons {
+    text-align: center;
+}
+
+.btn-enviar-con-mail {
+    padding: 9px 15px !important;
+    font-size: 15px !important;
+}
+
+.btn-whats-home {
+    background: #FF6900 !important;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+    box-shadow: 6px 10px 16px rgba(11, 20, 85, 0.12);
+    border-radius: 8px;
+}
+
+.buscador {
+    width: 750px;
+    height: 150px;
+    background: #ff690087;
+    margin-inline: auto;
+    position: relative;
+    bottom: 680px;
+    border-radius: 25px;
+}
+
+.txt-buscador {
+    margin-inline: auto;
+    width: 380px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+
+.selectores {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.selectind {
+    width: 33.33%;
+    text-align: center;
+}
+
+.deco-select {
+    background: black;
+    width: 190px;
+    margin-inline: auto;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.select2-container--default .select2-selection--single {
+    border-bottom: none !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: white !important;
+    font-size: 18px !important;
+    line-height: 1.7 !important;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #FF6900 !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #f3b284 !important;
+}
+
+.deco-select2 {
+    width: 200px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 42% !important;
+}
+
+.select2-container--open .select2-dropdown--below {
+    border-radius: 10px !important;
+}
+
+.page-header {
+    border-bottom: none !important;
+}
+
+.title-propiedades-destacadas {
+    width: 100%;
+    text-align: center;
+}
+
+.txt-prop-destacadas {
+    color: #FF6900;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.txt-nuestras {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.long-line1 {
+    width: 585px;
+    font-size: 20px;
+    background: #FF6900;
+    height: 2px;
+    margin-left: 2px;
+    margin-right: 0px;
+}
+
+.long-line2 {
+    width: 600px;
+    font-size: 20px;
+    background: #FF6900;
+    height: 2px;
+    margin-left: 0px;
+    margin-right: 2px;
+}
+
+.estrella-izq {
+    position: relative;
+    right: 40px;
+    font-size: 60px;
+}
+
+.estrella-der {
+    position: relative;
+    left: 40px;
+    font-size: 60px;
+}
+
+.margen-h2 {
+    margin-top: 130px;
+}
+
+.btn-mas-info-blanco {
+    color: #FF6900 !important;
+    background: white !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 30px !important;
+    height: 25px !important;
+    line-height: 0 !important;
+    margin-left: 100px !important;
+}
+
+.btn-mas-info-naranja {
+    color: white !important;
+    background: #FF6900 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 30px !important;
+    height: 25px !important;
+    line-height: 0 !important;
+    margin-left: 200px !important;
+}
+
+.primer-img {
+    border-radius: 25px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    border-color: white;
+}
+
+.segunda-img {
+    border-radius: 25px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    border-color: #FF6900;
+    margin-left: 20px;
+}
+
+.ubi-btn-whatsap {
+    position: relative;
+    bottom: 15px;
+}
+
+.dis-footer {
+    background: #FF6900 !important;
+    padding: 30px 0 !important;
+}
+
+.circulo {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.redis-face {
+    color: #FF6900 !important;
+    position: relative !important;
+    top: 8px !important;
+    font-size: 37px !important;
+}
+
+.redis-inst {
+    color: #FF6900 !important;
+    position: relative !important;
+    top: 6px !important;
+    font-size: 28px !important;
+}
+
+.img-tasaciones {
+    width: 335px;
+    height: 300px;
+    margin-top: 30px;
+    margin-inline: 20px;
+    border-radius: 14px;
+}
+
+.text-img-tasaciones {
+    background-color: #483f3f;
+    color: white;
+    width: 230px;
+    text-align: center;
+    font-size: 16px;
+    height: 55px;
+}
+
+.pos-primer-texto {
+    position: relative;
+    bottom: 69px;
+    left: 78px;
+    padding-top: 4px;
+}
+
+.pos-segundo-texto {
+    position: relative;
+    bottom: 124px;
+    left: 452px;
+    padding-top: 4px;
+}
+
+.pos-tercer-texto {
+    font-size: 16px;
+    position: relative;
+    bottom: 179px;
+    left: 830px;
+    padding-top: 4px;
+}
+
+.parrafo {
+    font-size: 19px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ubicacion-text {
+    text-align: left;
+    margin-top: 70px;
+}
+
+.ubicacion-img-tasacion {
+    text-align: right;
+}
+
+.subtitulo-tas {
+    font-size: 24px;
+}
+
+.margen-fila-imgtasaciones {
+    margin-bottom: 20px;
+}
+
+.h4-naranja {
+    background: #FF6900;
+    color: white !important;
+    border-radius: 8px;
+    padding-inline: 20px;
+    margin-left: 20px;
+    height: 30px;
+    line-height: 1.7 !important;
+    font-weight: 600 !important;
+
+}
+
+.tam-iconos {
+    width: 15px;
+}
+
+.tam-imagen-carro {
+    width: 700px;
+    border: 5px solid #b8b2b8;
+    border-radius: 8px;
+}
+
+.texto-info-inmueble {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.alinear-parrafo {
+    text-align: center;
+    font-size: 30px;
+    color: #FF6900;
+}
+
+.dim-video {
+    width: 635px;
+    height: 410px;
+}
+
+@media (max-width:600px) {
+    .dim-video {
+        width: auto;
+        height: auto;
+    }
+
+    .alinear-parrafo {
+        font-size: 15px;
+    }
+
+    .borde-mobile {
+        border: 2px solid #ffffff;
+    }
+
+    .div-caract-icono {
+        display: -webkit-inline-box !important;
+    }
+
+
+
+    h2 {
+        font-size: 14px !important;
+    }
+
+    .h4-naranja {
+        font-size: 10px;
+        width: 110px;
+        text-align: center;
+        height: 20px;
+        margin-left: 0px;
+        top: 6px;
+    }
+
+    .h4-barrio {
+        font-size: 12px;
+        position: relative;
+        left: 65px;
+    }
+
+    .col-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .row {
+        flex-direction: column !important;
+    }
+
+    .col-7 {
+        max-width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    /* saco espacio de la primer imagen y el header */
+    .page-header {
+        padding-bottom: 0.1px !important;
+    }
+
+    html.rd-navbar-fixed-linked .page {
+        padding-top: 0px !important;
+    }
+
+    /* icono whatsapp mobile */
+    .mobile-whatsap {
+        display: block !important;
+    }
+
+    .ico-what-mobile {
+        font-size: 25px !important;
+    }
+
+    .button-sm {
+        padding: 10px 15px !important;
+    }
+
+    .btn-wrap {
+        margin-top: 27px !important;
+        margin-left: 100px;
+    }
+
+    /* estilo menu lateral */
+
+    .rd-navbar-fixed .rd-nav-item:hover .rd-nav-link,
+    .rd-navbar-fixed .rd-nav-item.focus .rd-nav-link,
+    .rd-navbar-fixed .rd-nav-item.active .rd-nav-link,
+    .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
+        border-radius: 15px;
+        background: #f3f3f3 !important;
+        font-weight: 550;
+        font-size: 15px;
+    }
+
+    /* alineto titulo TASACIONES */
+    .txt-prop-destacadas {
+        text-align: center;
+    }
+
+    /* alineo subtitulo siguiente a tasaciones */
+    .subtitulo-tas {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* ubicacion de textos en las imagenes */
+    .pos-primer-texto {
+        bottom: 755px;
+        margin-inline: auto;
+        left: 0px;
+    }
+
+    .pos-segundo-texto {
+        left: 0px;
+        margin-inline: auto;
+        bottom: 480px;
+    }
+
+    .pos-tercer-texto {
+        margin-inline: auto;
+        left: 0px;
+        bottom: 210px;
+    }
+
+    /* margen de borde naranja para parte inferior */
+    .margen-bt {
+        margin-bottom: 25px;
+    }
+
+    .parrafo {
+        font-size: 16px;
+    }
+
+    .container-mob {
+        height: 1700px;
+    }
+
+    .tam-imagen-carro {
+        width: 300px;
+    }
+
+}
