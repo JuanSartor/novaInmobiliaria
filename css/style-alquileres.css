@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+.color-nova {
+    color: #FF6900 !important;
+}
+
+.btn-whats-home {
+    background: #FF6900 !important;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+    box-shadow: 6px 10px 16px rgba(11, 20, 85, 0.12);
+    border-radius: 8px;
+}
+
+.buscador {
+    width: 750px;
+    height: 150px;
+    background: #ff690087;
+    margin-inline: auto;
+    position: relative;
+    bottom: 680px;
+    border-radius: 25px;
+}
+
+.txt-buscador {
+    margin-inline: auto;
+    width: 380px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+
+.selectores {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.selectind {
+    width: 33.33%;
+    text-align: center;
+}
+
+.deco-select {
+    background: black;
+    width: 190px;
+    margin-inline: auto;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.select2-container--default .select2-selection--single {
+    border-bottom: none !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: white !important;
+    font-size: 18px !important;
+    line-height: 1.7 !important;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #FF6900 !important
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #f3b284 !important
+}
+
+.deco-select2 {
+    width: 200px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 42% !important;
+}
+
+.select2-container--open .select2-dropdown--below {
+    border-radius: 10px !important;
+}
+
+.page-header {
+    border-bottom: none !important;
+}
+
+.title-propiedades-destacadas {
+    width: 100%;
+    text-align: center;
+}
+
+.txt-prop-destacadas {
+    color: #FF6900;
+    font-size: 80px;
+    font-weight: 600;
+    position: relative;
+    bottom: 30px;
+    right: 4px;
+}
+
+.txt-nuestras {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.long-line1 {
+    width: 585px;
+    font-size: 20px;
+    background: #FF6900;
+    height: 2px;
+    margin-left: 2px;
+    margin-right: 0px;
+}
+
+.long-line2 {
+    width: 600px;
+    font-size: 20px;
+    background: #FF6900;
+    height: 2px;
+    margin-left: 0px;
+    margin-right: 2px;
+}
+
+.estrella-izq {
+    position: relative;
+    right: 40px;
+    font-size: 60px;
+}
+
+.estrella-der {
+    position: relative;
+    left: 40px;
+    font-size: 60px;
+}
+
+.margen-h2 {
+    margin-top: 130px;
+}
+
+.btn-mas-info-blanco {
+    color: #FF6900 !important;
+    background: white !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 30px !important;
+    height: 25px !important;
+    line-height: 0 !important;
+    margin-left: 100px !important;
+}
+
+.btn-mas-info-naranja {
+    color: white !important;
+    background: #FF6900 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 30px !important;
+    height: 25px !important;
+    line-height: 0 !important;
+    margin-left: 200px !important;
+}
+
+.primer-img {
+    border-radius: 25px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    border-color: white;
+}
+
+.segunda-img {
+    border-radius: 25px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    border-color: #FF6900;
+    margin-left: 20px;
+}
+
+.ubi-btn-whatsap {
+    position: relative;
+    bottom: 15px;
+}
+
+.dis-footer {
+    background: #FF6900 !important;
+    padding: 30px 0 !important;
+}
+
+.circulo {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.redis-face {
+    color: #FF6900 !important;
+    position: relative !important;
+    top: 8px !important;
+    font-size: 37px !important;
+}
+
+.redis-inst {
+    color: #FF6900 !important;
+    position: relative !important;
+    top: 6px !important;
+    font-size: 28px !important;
+}
+
+.img-tasaciones {
+    width: 335px;
+    height: auto;
+    margin-top: 0px;
+    margin-inline: 20px;
+    border-radius: 14px;
+}
+
+.text-img-tasaciones {
+    background-color: #483f3f;
+    color: white;
+    width: 230px;
+    text-align: center;
+    font-size: 16px;
+    height: 55px;
+}
+
+.pos-primer-texto {
+    position: relative;
+    bottom: 69px;
+    left: 78px;
+    padding-top: 4px;
+}
+
+.pos-segundo-texto {
+    position: relative;
+    bottom: 124px;
+    left: 452px;
+    padding-top: 4px;
+}
+
+.pos-tercer-texto {
+    font-size: 16px;
+    position: relative;
+    bottom: 179px;
+    left: 830px;
+    padding-top: 4px;
+}
+
+.parrafo {
+    font-size: 19px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ubicacion-text {
+    text-align: left;
+    margin-top: 70px;
+}
+
+.ubicacion-img-tasacion {
+    text-align: right;
+}
+
+.subtitulo-tas {
+    font-size: 24px;
+}
+
+.busqueda-propiedad-ayuda {
+    text-align: center;
+    background: #f3e9e1;
+    width: 900px;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px !important;
+}
+
+.btn-click-aqui {
+    border-radius: 22px;
+    position: relative;
+    top: 50px;
+}
+
+.txt-ayuda {
+    font-size: 26px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+
+.seccion-ayuda {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.texto-min-desc {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    font-size: 12px;
+}
+
+.texto-min-precio {
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.span-txt-min {
+    background: #FF6900 !important;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    opacity: 0.9;
+    width: 240px;
+    margin-inline: auto;
+}
+
+.span-txt-precio {
+    background: #FF6900 !important;
+    padding: 2px;
+    border-radius: 8px;
+    font-weight: 600;
+    opacity: 0.9;
+    width: 140px;
+    position: relative;
+    left: 215px;
+    font-size: 16px;
+
+}
+
+@media (max-width:600px) {
+    .img-tasaciones-alquiler {
+        width: 200px;
+        height: auto !important;
+
+    }
+
+    .ubicacion-img-tasacion {
+        text-align: center;
+    }
+
+    .ubicacion-text {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .txt-prop-destacadas {
+        font-size: 50px;
+    }
+
+    .txt-ayuda {
+        font-size: 20px;
+    }
+
+    .rd-navbar-fixed .rd-nav-item:hover .rd-nav-link,
+    .rd-navbar-fixed .rd-nav-item.focus .rd-nav-link,
+    .rd-navbar-fixed .rd-nav-item.active .rd-nav-link,
+    .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
+        border-radius: 15px;
+        background: #f3f3f3 !important;
+        font-weight: 550;
+        font-size: 15px;
+    }
+
+    .busqueda-propiedad-ayuda {
+        width: 365px;
+    }
+
+    .page-header {
+        padding-bottom: 0.1px !important;
+    }
+
+    html.rd-navbar-fixed-linked .page {
+        padding-top: 0px !important;
+    }
+
+    .img-tasaciones {
+        height: 270px;
+    }
+
+    .mobile-whatsap {
+        display: block !important;
+    }
+
+    .ico-what-mobile {
+        font-size: 25px !important;
+    }
+
+    .button-sm {
+        padding: 10px 15px !important;
+    }
+
+    .btn-wrap {
+        margin-top: 27px !important;
+        margin-left: 100px;
+    }
+
+    .pos-primer-texto {
+        bottom: 677px;
+        margin-inline: auto;
+        left: 0px;
+    }
+
+    .pos-segundo-texto {
+        left: 0px;
+        margin-inline: auto;
+        bottom: 428px;
+    }
+
+    .pos-tercer-texto {
+        margin-inline: auto;
+        left: 0px;
+        bottom: 185px;
+    }
+
+
+}
