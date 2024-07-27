@@ -1,0 +1,79 @@
+Options +FollowSymlinks -Indexes
+RewriteEngine on
+RewriteOptions inherit
+
+
+
+
+#Evitar el acceso al archivo .htaccess
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+
+##############################
+
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 day"
+ExpiresByType image/jpeg "access plus 1 day"
+ExpiresByType image/gif "access plus 1 day"
+ExpiresByType image/png "access plus 1 day"
+ExpiresByType image/svg "access plus 1 day"
+ExpiresByType text/css "access plus 1 hour"
+ExpiresByType application/pdf "access plus 1 day"
+ExpiresByType text/x-javascript "access plus 1 hour"
+ExpiresByType application/x-shockwave-flash "access plus 1 day"
+ExpiresByType image/x-icon "access plus 1 day"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+<IfModule mod_headers.c>
+    Header append Cache-Control "public"
+</IfModule>
+## EXPIRES CACHING ##
+## COMPRESS ##
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+## COMPRESS ##
+
+
+
+#INDEX
+DirectoryIndex  index.php
+
+
+
+# con esta regla redirecciono para que no ponga la extension html
+RewriteBase /
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^visitarpropiedad/([^/]+)/?$ visitarpropiedad.php?inmueble=$1 [L]
+
+
+
+
+#######################
+# 404
+#######################
+ErrorDocument 404 https://inmobiliarianova.com.ar/error

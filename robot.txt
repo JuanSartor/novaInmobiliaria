@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /inicio.php
+Disallow: /usuario.php
+Disallow: /inmueble.php
+Disallow: /clientes.phpp
+Disallow: /personalizacion.php
+
+Sitemap: https://inmobiliarianova.com.ar/sitemap.xml
