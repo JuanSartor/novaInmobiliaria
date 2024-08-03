@@ -441,6 +441,10 @@
                                      <option value="1">Terreno</option>
                                      <option value="2">Galpon</option>
                                      <option value="3">Salon</option>
+                                     <option value="4">Campo</option>
+                                     <option value="5">Departamento</option>
+                                     <option value="6">Casa Quinta</option>
+                                     <option value="7">PH</option>
                                  </select>
                              </div>
                          </div>

@@ -9,7 +9,11 @@ CASE tipo_inmueble
         WHEN '0' THEN 'Casa'
         WHEN '1' THEN 'Terreno'
         WHEN '2' THEN 'Galpon'
-        ELSE 'Salon'
+		WHEN '3' THEN 'Salon'
+		WHEN '4' THEN 'Campo'
+		WHEN '5' THEN 'Departamento'
+		WHEN '6' THEN 'Casa Quinta'
+        ELSE 'PH'
     END AS tipo_inmueble
  FROM inmueble where estado !=7 order by id_inmueble desc";
 

@@ -182,9 +182,20 @@
                             }
                         }
 
-                        if (!empty($inm["url_video"])) {
+                        // esto lo hago para cuando copia la url de un VIDEO en youtube
+                        if ((!empty($inm["url_video"])) && (strpos($inm["url_video"], 'watch?') !== false)) {
                             $arrcad = explode("watch?v=", $inm["url_video"]);
                             $cadFinal = $arrcad[0] . 'embed/' . $arrcad[1];
+
+                            echo '<div class="carousel-item" >
+                            <iframe class="dim-video"  src="' . $cadFinal . '"  allowfullscreen></iframe>
+                            </div>';
+                        }
+
+                        // esto lo hago para cuando copia la url de un SHORT en youtube
+                        if ((!empty($inm["url_video"])) && (strpos($inm["url_video"], 'shorts') !== false)) {
+                            $arrcad = explode("shorts", $inm["url_video"]);
+                            $cadFinal = $arrcad[0] . 'embed' . $arrcad[1];
 
                             echo '<div class="carousel-item" >
                             <iframe class="dim-video"  src="' . $cadFinal . '"  allowfullscreen></iframe>
