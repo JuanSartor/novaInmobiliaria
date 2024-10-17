@@ -242,6 +242,10 @@
                         if (!empty($mostrar["barrio"])) {
                             $textoDesDomicilio =  '<img style="width: 15px; margin-right: 5px; position: relative; bottom: 1px;" class="tam-iconos" src="images/iconos/location-dot-solid-blanca.svg" alt="">' . ' B* ' . $mostrar["barrio"] . '-' . $mostrar["ciudad"];
                         }
+                        if (!empty($mostrar["ciudad"]) and empty($mostrar["barrio"])) {
+                            $textoDesDomicilio =  '<img style="width: 15px; margin-right: 5px; position: relative; bottom: 1px;" class="tam-iconos" src="images/iconos/location-dot-solid-blanca.svg" alt="">'  . $mostrar["ciudad"];
+                        }
+
 
 
                         $textoDesDesMin = '';
@@ -254,6 +258,11 @@
                         if (!empty($mostrar["garage"])) {
                             $textoDesDesMin = $textoDesDesMin .  '<img style="width: 15px; margin-right: 3px; margin-left: 7px; position: relative; bottom: 1px;" class="tam-iconos" src="images/iconos/car-solid-blanca.svg" alt="">' . $mostrar["garage"];
                         }
+                        // esto hago para mostrar los metros cuadrados si es un terreno o campo
+                        if ($mostrar["tipo_inmueble"] == 4 || $mostrar["tipo_inmueble"] == 1) {
+                            $textoDesDesMin = $textoDesDesMin  . 'M&sup2 ' . $mostrar["m2"];
+                        }
+
 
 
                         $id = $mostrar["id_inmueble"];

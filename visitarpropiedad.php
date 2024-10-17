@@ -267,19 +267,22 @@
                         switch ($inm["estado"]) {
                             case '0':
                                 echo $tipoInmueble . " EN VENTA/ALQUILER";
+                                $precio_final=number_format($inm["precio"], 0, ",", ".");
                                 break;
                             case '1':
                                 echo $tipoInmueble . " EN VENTA";
+                                $precio_final=number_format($inm["precio"], 0, ",", ".");
                                 break;
                             case '2':
                                 echo $tipoInmueble . " EN ALQUILER";
+                                $precio_final=number_format($inm["precio_alquiler"], 0, ",", ".");
                                 break;
                         }
                         ?>
                     </h2>
                 </div>
                 <div style="justify-content: center; margin-top: 0px; align-items: center;" class="row ">
-                    <h4 class="h4-naranja"><?php echo $inm["nombremoneda"] . ' ' . number_format($inm["precio"], 0, ",", "."); ?> </h4>
+                    <h4 class="h4-naranja"><?php echo $inm["nombremoneda"] . ' ' .  $precio_final; ?> </h4>
                 </div>
                 <div style="justify-content: center; margin-top: 0px;" class="row">
                     <h4 class="h4-barrio" style="margin-top: 0px; font-weight: 700; text-transform: uppercase;">
