@@ -1,10 +1,4 @@
-imagenes-inmuebles/img-secciones/.jpg
-imagenes-inmuebles/img-secciones/.png
-imagenes-inmuebles/img-secciones/.webp
-imagenes-inmuebles/img-secciones/21.jpg
-imagenes-inmuebles/img-secciones/21.png
-imagenes-inmuebles/img-secciones/21.webp
-imagenes-inmuebles/img-secciones/24.jpg
-imagenes-inmuebles/inmueble-ID-16/checo.webp
-imagenes-inmuebles/inmueble-ID-21/404_error.png
-imagenes-inmuebles/inmueble-ID-21/5 - copia.webp
+/imagenes-inmuebles/
+*.jpg
+*.png
+/nbproject/private/

@@ -6,17 +6,28 @@ $conexion = conectar();
 $idInmuebleSeleccionado = $_POST['idInmuebleSeleccionado'];
 $imagenSeleccionada = $_POST['imagenSeleccionada'];
 
+//elimino si existe otra imagen
+$sourcePathJPGe = '../imagenes-inmuebles/img-secciones/' . $idInmuebleSeleccionado . '.jpg';
+$sourcePathPNGe = '../imagenes-inmuebles/img-secciones/' . $idInmuebleSeleccionado . '.png';
+if (file_exists($sourcePathJPGe)) {
+    // Intentar eliminar el archivo
+    unlink($sourcePathJPGe);
+}
+if (file_exists($sourcePathPNGe)) {
+    // Intentar eliminar el archivo
+    unlink($sourcePathPNGe);
+}
+
+
+
+
 $sourcePath = '../imagenes-inmuebles/inmueble-ID-' . $idInmuebleSeleccionado . '/' . $imagenSeleccionada;
-
-
-
 
 // Obtener el tamaño original de la imagen
 list($originalWidth, $originalHeight) = getimagesize($sourcePath);
 
 // Crear una nueva imagen en blanco con el tamaño deseado
 $resizedImage = imagecreatetruecolor(335, 200);
-
 
 $imageInfo = getimagesize($sourcePath);
 
@@ -50,16 +61,16 @@ switch ($mime) {
 $destinationPath = '../imagenes-inmuebles/img-secciones/' . $idInmuebleSeleccionado . '.' . $formato;
 // Redimensionar la imagen
 imagecopyresampled(
-    $resizedImage,
-    $sourceImage,
-    0,
-    0,
-    0,
-    0,
-    335,
-    200,
-    $originalWidth,
-    $originalHeight
+        $resizedImage,
+        $sourceImage,
+        0,
+        0,
+        0,
+        0,
+        335,
+        200,
+        $originalWidth,
+        $originalHeight
 );
 
 // Guardar la imagen redimensionada en el destino especificado
@@ -68,8 +79,6 @@ imagejpeg($resizedImage, $destinationPath);
 // Liberar la memoria
 imagedestroy($sourceImage);
 imagedestroy($resizedImage);
-
-
 
 $sql = "UPDATE inmueble SET imagen_principal='$imagenSeleccionada' WHERE id_inmueble='$idInmuebleSeleccionado'";
 
