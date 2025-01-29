@@ -6,7 +6,7 @@
         <meta name="description" content="Nova Inmobiliaria un grupo de profesionales a tu disposición, para asesorarte y facilitarte tus operaciones en el mercado inmobiliario: Tasaciones - Administración de Propiedades - Compra Venta de Inmuebles - Proyectos Inmobiliarios.">
         <?php
         if ($_SERVER['HTTP_HOST'] === 'localhost') {
-            $UrlIndex = 'https://localhost/novaInm/';
+            $UrlIndex = 'https://localhost/novainm/';
         } else {
             $UrlIndex = 'https://inmobiliarianova.com.ar/';
         }
@@ -486,8 +486,8 @@
 
 
 
-        <script src="<?php echo $UrlIndex . 'js/core.min.js'; ?> " async></script>
-        <script src="<?php echo $UrlIndex . 'js/script.js'; ?> " async></script>
+        <script src="<?php echo $UrlIndex . 'js/core.min.js'; ?> " ></script>
+        <script src="<?php echo $UrlIndex . 'js/script.js'; ?> " ></script>
 
         <!--coded by dyoma-->
     </body>
